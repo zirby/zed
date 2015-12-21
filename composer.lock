@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "32378fd3ef30487df1eacf75030e6926",
-    "content-hash": "f7c9c8a4647bd0801e25231a1fdc8a1f",
+    "hash": "06771684c6cd015d6df6dbe982d474cd",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1085,7 +1084,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/1045b31102f9d6017725ada4d4b5d0fce085fc9f",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/419c1824af940e2be0f833aca2327e1181a6b503",
                 "reference": "1045b31102f9d6017725ada4d4b5d0fce085fc9f",
                 "shasum": ""
             },
@@ -1854,7 +1853,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/3b99b3a6e71da0f7d3fb07cf5c728ad04a326416",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/1bc9aaa6f95e839dfe7d77b6efcd99aff4e9deda",
                 "reference": "3b99b3a6e71da0f7d3fb07cf5c728ad04a326416",
                 "shasum": ""
             },
@@ -1976,6 +1975,57 @@
                 "framework"
             ],
             "time": "2015-11-16 09:09:38"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "71a0bfee8eef70999f9a2c486901b2b55a890b27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/71a0bfee8eef70999f9a2c486901b2b55a890b27",
+                "reference": "71a0bfee8eef70999f9a2c486901b2b55a890b27",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "http://getbootstrap.com",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "less",
+                "mobile-first",
+                "responsive",
+                "web"
+            ],
+            "time": "2015-12-17 05:55:54"
         },
         {
             "name": "twig/twig",
@@ -2149,7 +2199,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "symfony/symfony": 20,
-        "sensio/distribution-bundle": 20
+        "sensio/distribution-bundle": 20,
+        "twbs/bootstrap": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
